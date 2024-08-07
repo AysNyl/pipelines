@@ -1,0 +1,4 @@
+train: # train properties
+  epochs: 17
+  n_parameters: 5
+  max_depth: 3

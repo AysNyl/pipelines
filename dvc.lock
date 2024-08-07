@@ -1,0 +1,21 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - path: train.py
+      hash: md5
+      md5: 9ff3fc60cc3bd06856a92f3e57855c62
+      size: 578
+    params:
+      params.yaml:
+        train:
+          epochs: 17
+          n_parameters: 5
+          max_depth: 3
+    outs:
+    - path: dvclive
+      hash: md5
+      md5: 3b269bf0c6bfe4fe76eba8afd4aea04c.dir
+      size: 1773
+      nfiles: 6
