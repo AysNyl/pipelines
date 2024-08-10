@@ -1,0 +1,4 @@
+[core]
+    remote = data_lake
+['remote "data_lake"']
+    url = ../../data_cloud

@@ -1,8 +1,8 @@
 Bug With VsCode:
 vs-code source control environment doesn't match activated environment in the terminal.
-unable to do dvc commit alongside git commit after dvc install to initialize git hooks.
+unable to do dvc commit alongside git commit after dvc install to initialize git hooks through VsCode.
 
---Ongoing issue.
+--Ongoing github/VsCode issue.
 
 Resolution:
 Manual execution of git-hooks through terminal.
